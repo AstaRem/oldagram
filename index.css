@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+
+}
+
+/* do i need it? */
+.background {
+    width: 100%;
+
+}
+
+.post {
+    width: 375px;
+    height: 1767px;
+    background-color: #FFF;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-bottom:1px solid #C6C6C6;
+}
+
+.logo {
+    width: 127px;
+}
+
+.avatar {
+    width: auto;
+    height: 34px;
+    border-radius: 100%;
+}
+
+.post-image {
+    width: 375px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: start; 
+    align-items: center;
+    padding-left: 10px;
+}
+
+.name-location h2 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.name-location p {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.name-location, .user-info, .likes, .post-description {
+    padding-left: 10px;
+}
+
+.handle {
+    width: 22px;
+    padding: 10px;
+}
+
+.likes, .post-description span {
+    font-weight: bold;
+}
