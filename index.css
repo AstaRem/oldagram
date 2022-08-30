@@ -7,15 +7,10 @@ html, body {
 
 }
 
-/* do i need it? */
-.background {
-    width: 100%;
-
-}
 
 .post {
     width: 375px;
-    height: 1767px;
+    height: 700px;
     background-color: #FFF;
     margin-right: auto;
     margin-left: auto;
@@ -74,3 +69,4 @@ html, body {
 .likes, .post-description span {
     font-weight: bold;
 }
+
